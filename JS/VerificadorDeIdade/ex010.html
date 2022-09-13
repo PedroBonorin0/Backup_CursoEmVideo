@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex010style.css">
+    <title>CursoJS</title>
+</head>
+    <body>
+        <header>
+            <h1>Verificador de Idade</h1>
+        </header>
+        <section>
+            Ano de Nascimento: <input type="number" name="anonasc" id="anonasc"><br>
+            Sexo: <input type="radio" name="sexo" id="masc" checked> <label for="masc">Masculino</label>
+                  <input type="radio" name="sexo" id="fem"> <label for="fem">Feminino</label><br>
+            Ja fez Aniversário esse ano?<input type="radio" name="niver" id="sim" checked> <label for="sim">Sim</label>
+                  <input type="radio" name="niver" id="nao"> <label for="nao">Não</label><br>
+            <input type="button" value="Verificar" onclick="verifica()">
+
+            <div id="texto">
+                <p>Preencha os dados e clique no botão!</p>
+            </div>
+            <img id="foto" src="">
+            
+        </section>
+
+        <footer>&copy; Bonorino</footer>
+
+        <script src="ex010script.js"></script>
+    </body>
+</html>

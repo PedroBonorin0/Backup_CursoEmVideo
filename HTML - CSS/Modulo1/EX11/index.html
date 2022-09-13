@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML-CSS</title>
+</head>
+    <body>
+        <h1>Imagens Dinâmicas</h1>
+        <hr>
+        <p>A imagem a seguir irá se adaptar ao tamanho da tela do usuário!</p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="Imagens/foto_pequena.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="Imagens/foto_media.png" type="image/png">
+            <img src="Imagens/foto_grande.png" alt="Foto grande!">
+        </picture>
+
+        <h1>Áudios em HTML5</h1>
+        <hr>
+        <p>Vamos aprender a escutar áudios em sites!</p>
+        <audio preload="metadata" controls autopray loop > <!--autoplay* errado para não carregar toda hora!-->
+            <source src="media/guanacast-33.mp3" type="audio/mpeg">
+            <source src="media/guanacast-33.ogg" type="audio/ogg">
+            <source src="media/guanacast-33.wav" type="audio/wav"> <!--Evitar pq é pesado!-->
+            <p>Infelizmente seu navegador não consegue reproduzir áudios...<br>
+            </p>
+        </audio>
+         
+    </body>
+</html>

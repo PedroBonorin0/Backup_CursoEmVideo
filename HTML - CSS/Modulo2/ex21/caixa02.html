@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping-Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        nav{
+            background-color: rgb(99, 99, 99);
+            
+        }
+
+        nav>a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside{
+            background-color: rgb(167, 167, 167);
+        }
+
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+    <body>
+        <header>
+            <h1>Meu site</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+        </header>
+        <main>
+            <section id="assuntos">
+
+            </section>
+            <section id="noticias">
+                <article>
+                    <h2>Notícia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima vitae vero itaque aliquam temporibus inventore eaque quia sit, magni possimus minus quo expedita deleniti ipsam tenetur aperiam. Nam, repudiandae veniam.</p>
+                    <aside>
+                        <p>Artigo escrito por alguem</p>
+                    </aside>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Desenvoldido por Pedro Bonorino</p>
+        </footer>
+    </body>
+</html>
